@@ -8,12 +8,12 @@ It assumes an installation of /etc/openvpn for your server.conf and /etc/openvpn
 Usage: 
 
 ```
-sudo python ovpnoncerator.py 
+sudo python ovpnoncorator.py 
 ```
 or
 
 ```
-sudo python ovpnoncerator.py -c /path/to/my/server.conf -k /path/to/my/keystore-directory
+sudo python ovpnoncorator.py -c /path/to/my/server.conf -k /path/to/my/keystore-directory
 ```
 
 To get your onc files working on Chromebook:
