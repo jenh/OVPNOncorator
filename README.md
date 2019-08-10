@@ -1,4 +1,4 @@
-OVPNOncerator
+OVPNOncorator
 ============
 
 Quick and dirty python script to take values from your server.conf and plop them into ovpn and onc files. 
