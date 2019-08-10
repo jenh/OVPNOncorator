@@ -23,5 +23,3 @@ To get your onc files working on Chromebook:
 3. Then chrome://net-internals > ChromeOS.
 4. Click Import ONC, navigate to your generated onc file, Import. The interface will tell you "no file chosen," but if you tap your wifi network icon in the system tray, tap VPN Connections, it should show up unless there was a parsing error. (If you find out where or whether these parsing errors get logged anywhere, lemme know - couldn't find 'em in /var/log/\*)
 5. Connect. You'll be prompted for a password, you can put anything there if you're just using certificates, the server doesn't care if it doesn't need it, but Chrome won't let you connect without a value there.
-
-WARNING: ChromeOS uses an old version of OpenVPN without TLS 1.2 support. If enabled on the server, it will never connect. Please do a solid and star the [Chromium bug](https://bugs.chromium.org/p/chromium/issues/detail?id=707517). (And any other OpenVPN-Chrome bugs you happen to see: OpenVPN support in Chrome needs love.)
